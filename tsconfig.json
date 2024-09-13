@@ -1,0 +1,36 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "strictNullChecks": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@icons/*": [
+        "assets/icons/*"
+      ],
+      "@images/*": [
+        "assets/images/*"
+      ],
+      "@default_img/*": [
+        "assets/images/default_img/*"
+      ],
+      "@screens/*": [
+        "screens/*"
+      ],
+      "@utils/*": [
+        "utils/*"
+      ],
+      "@redux/*": [
+        "redux/*"
+      ],
+      "@components/*": [
+        "components/*"
+      ],
+      "@config/*": [
+        "config/*"
+      ],
+      "@helpers/*": [
+        "helpers/*"
+      ],
+    },
+  },
+}
